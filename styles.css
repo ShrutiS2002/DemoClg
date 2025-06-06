@@ -1,0 +1,37 @@
+
+    /* Style for carousel indicator buttons to make them circles */
+.carousel-indicators button {
+    bottom: 10px; /* Adjust this value to move the dots up or down */
+    z-index: 100;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000; /* Default color for the inactive circle */
+    border: none;
+    opacity: 0.5;
+}
+
+.carousel-indicators .active {
+    background-color: #fff; /* Active circle color */
+    opacity: 1;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-half {
+    background-color: black; 
+    color: white;
+    
+}
+
+.dropdown:hover {
+    background-color: white; /* Light brown background */
+    color: black; /* Text color change */
+    transition: 0.3s ease-in-out; /* Smooth transition effect */
+    border-radius: 10%;
+}
+
